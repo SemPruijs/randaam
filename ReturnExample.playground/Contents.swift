@@ -9,12 +9,15 @@ extension Array {
     }
 }
 
-let names = ["harry", "bert", "henk", "sebastiaan", "papa", "mama", "lars", "steven"]
-let voorwerp = ["stoep", "dinosaurus", "klokken", "lampen","mieren", "poep", "bank", "goudvis"]
-let watJeKanDoen = ["inspeckteur", "zitter", "liefhebber", "visser", "schepper", "specilist", "schoonmaker"]
+let names = ["harry", "bert", "henk", "sebastiaan", "papa","rutger", "mama", "lars", "steven", "jannes",  "iwan","milan","bertwim","amgela","jorgiam","hansje","pim","sandra","hennie","achmet","dirkjan","barbaba","jeroen","riejan","willem"]
+
+let object = ["stoep", "dinosaurus", "klokken", "lampen","mieren","appelmoes", "poep", "bank", "goudvis","ramen","pizza","banannen","blopvis","pennen","bomen","schoenen"]
+
+let watJouCanDoe = ["inspecteur", "zitter", "liefhebber", "visser", "schepper", "specilist", "schoonmaker","verkoper","wasser","bakker"]
+
 
 func fullJob() -> String {
-    return names.randomElement()  + " de " + voorwerp.randomElement() + " " + watJeKanDoen.randomElement()
+    return names.randomElement()  + " de " + object.randomElement() + " " + watJouCanDoe.randomElement()
 }
 
 
