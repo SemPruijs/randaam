@@ -9,25 +9,28 @@ extension Array {
     }
 }
 
-let names = ["harry", "bert", "henk", "sebastiaan", "papa","rutger", "mama", "lars", "steven", "jannes",  "iwan","milan","bertwim","amgela","jorgiam","hansje","pim","sandra","hennie","achmet","dirkjan","barbaba","jeroen","riejan","willem"]
+let names = ["harry", "bert", "henk", "sebastiaan", "papa","rutger", "mama", "lars", "Steven", "jannes",  "iwan","milan","bertwim","amgela","jorgiam","hansje","pim","sandra","hennie","achmet","dirkjan","barbaba","jeroen","riejan","willem","leo","meneer","bas","dennis","jan","kees"]
 
-let object = ["stoep", "dinosaurus", "klokken", "lampen","mieren","appelmoes", "poep", "bank", "goudvis","ramen","pizza","banannen","blopvis","pennen","bomen","schoenen"]
+let object = ["stoep", "dinosaurus", "klokken", "lampen","mieren","appelmoes", "poep", "bank", "goudvis","ramen","pizza","banannen","blopvis","pennen","bomen","schoenen","fietspompen","fietsen","deur","bezem","eekhorn","muis","tafel","cavia","koek","luiaart","paarden"]
 
-let watJouCanDoe = ["inspecteur", "zitter", "liefhebber", "visser", "schepper", "specilist", "schoonmaker","verkoper","wasser","bakker"]
+let watJouCanDoe = ["inspecteur", "zitter", "liefhebber", "visser", "schepper", "specilist", "schoonmaker","verkoper","wasser","bakker","temmer","loper","show"]
+
+
+    
+
+    
 
 
 func fullJob() -> String {
     return names.randomElement()  + " de " + object.randomElement() + " " + watJouCanDoe.randomElement()
 }
 
+print(fullJob())
 
 
 
 
 
-
-
-    print(fullJob())
 
 
  
