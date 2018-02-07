@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fulljobLabel: UILabel!
     @IBOutlet weak var salaryLabel: UILabel!
     
+    // The person info generator
     let personInfoGenerator = PersonInfoGenerator()
     
     override func viewDidLoad() {
