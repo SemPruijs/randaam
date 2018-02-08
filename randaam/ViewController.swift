@@ -20,17 +20,33 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         fulljobLabel.text = personInfoGenerator.generateJob()
+        
     }
 
     @IBAction func screenTapped(_ sender: UITapGestureRecognizer) {
+        let salary = personInfoGenerator.generateSalary()
+        if salary >= 990 {
+            salaryLabel.textColor = UIColor.purple
+        }  else if salary >= 900 {
+            salaryLabel.textColor = UIColor.blue
+        }  else if salary >= 600 {
+            salaryLabel.textColor = UIColor.green
+        }  else if salary >= 400 {
+            salaryLabel.textColor = UIColor.orange
+        }  else if salary >= 200 {
+            salaryLabel.textColor = UIColor.yellow
+        }  else if salary >= 0 {
+            salaryLabel.textColor = UIColor.red
+        }
+            
+       
+     
         fulljobLabel.text = personInfoGenerator.generateJob()
-        salaryLabel.text = String(personInfoGenerator.generateSalary())
+        salaryLabel.text = "€\(salary)/dag"
+        
     }
+    
 }
-
-
-
-
 
 
 
