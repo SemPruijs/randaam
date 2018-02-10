@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tik op het scherm" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1T-wE-T10">
-                                <rect key="frame" x="93" y="326" width="134" height="20.5"/>
+                                <rect key="frame" x="93" y="326" width="134" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,6 +47,12 @@
                                 <rect key="frame" x="704" y="489" width="121" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="om een randaam te krijgen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um9-X2-xQW">
+                                <rect key="frame" x="58" y="354" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
@@ -55,12 +61,14 @@
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FGf-en-ZBX"/>
                             <constraint firstItem="p1T-wE-T10" firstAttribute="top" secondItem="Dhg-Mg-kfP" secondAttribute="bottom" constant="31" id="GvT-fh-XiS"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lmz-qA-Nzr"/>
+                            <constraint firstItem="um9-X2-xQW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="70" id="Su5-cj-D5m"/>
                             <constraint firstItem="HFy-qX-8g0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="ZNJ-yq-bXh"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZX3-pV-MM6"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZyN-iX-lQB"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abz-xF-2yX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HFy-qX-8g0" secondAttribute="bottom" constant="16" id="bx8-5A-OQp"/>
                             <constraint firstItem="p1T-wE-T10" firstAttribute="centerX" secondItem="Dhg-Mg-kfP" secondAttribute="centerX" id="iAM-vt-p08"/>
+                            <constraint firstItem="um9-X2-xQW" firstAttribute="centerX" secondItem="p1T-wE-T10" secondAttribute="centerX" id="sVz-Sb-1mL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -68,6 +76,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="ageLabel" destination="um9-X2-xQW" id="FGo-sj-ASr"/>
                         <outlet property="fulljobLabel" destination="Dhg-Mg-kfP" id="WzP-jF-d9f"/>
                         <outlet property="salaryLabel" destination="p1T-wE-T10" id="qD9-uF-tAq"/>
                     </connections>

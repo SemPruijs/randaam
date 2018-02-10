@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var fulljobLabel: UILabel!
     @IBOutlet weak var salaryLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
+    
+   
     
     // The person info generator
     let personInfoGenerator = PersonInfoGenerator()
@@ -23,9 +26,13 @@ class ViewController: UIViewController {
         
     }
 
+    
+    
     @IBAction func screenTapped(_ sender: UITapGestureRecognizer) {
-        let salary = personInfoGenerator.generateSalary()
         
+        let age = generateAge()
+        
+        let salary = personInfoGenerator.generateSalary()
        
         
         switch salary {
@@ -48,6 +55,7 @@ class ViewController: UIViewController {
         
         fulljobLabel.text = personInfoGenerator.generateJob()
         salaryLabel.text = "€\(salary)/week"
+        ageLabel.text = "\(age) jaar oud"
         
     }
     

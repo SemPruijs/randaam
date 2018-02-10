@@ -33,7 +33,18 @@ struct PersonInfoGenerator {
     func generateSalary() -> Int {
     
         return Int(arc4random_uniform(1000) + 1)
+        
     }
+    
+    
+    
+        
+    
+    
 }
 
 
+func generateAge() -> Int {
+    
+    return Int(arc4random_uniform(100) + 1)
+}
