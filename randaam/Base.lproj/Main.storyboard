@@ -53,8 +53,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="veel randaam plezier            :) " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txA-wq-SLv">
-                                <rect key="frame" x="43" y="188" width="234" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="              veel plezier            " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txA-wq-SLv">
+                                <rect key="frame" x="59.5" y="173" width="201.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -68,17 +68,16 @@
                             <constraint firstItem="p1T-wE-T10" firstAttribute="top" secondItem="Dhg-Mg-kfP" secondAttribute="bottom" constant="49" id="GvT-fh-XiS"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lmz-qA-Nzr"/>
                             <constraint firstItem="um9-X2-xQW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="19.5" id="Su5-cj-D5m"/>
-                            <constraint firstItem="txA-wq-SLv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-95.5" id="T6x-fN-W7e"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-110.5" id="T6x-fN-W7e"/>
                             <constraint firstItem="HFy-qX-8g0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="ZNJ-yq-bXh"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZX3-pV-MM6"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZyN-iX-lQB"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abz-xF-2yX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HFy-qX-8g0" secondAttribute="bottom" constant="16" id="bx8-5A-OQp"/>
-                            <constraint firstItem="txA-wq-SLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="g6q-Nf-cfu"/>
-                            <constraint firstAttribute="trailing" secondItem="txA-wq-SLv" secondAttribute="trailing" constant="43" id="hZ1-i9-Lkf"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hi8-j1-rfM"/>
                             <constraint firstItem="p1T-wE-T10" firstAttribute="centerX" secondItem="Dhg-Mg-kfP" secondAttribute="centerX" id="iAM-vt-p08"/>
                             <constraint firstItem="um9-X2-xQW" firstAttribute="centerX" secondItem="p1T-wE-T10" secondAttribute="centerX" id="sVz-Sb-1mL"/>
-                            <constraint firstItem="txA-wq-SLv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="168" id="zRt-wV-Iwp"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="zRt-wV-Iwp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>

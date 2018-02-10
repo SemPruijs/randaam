@@ -53,25 +53,25 @@ class ViewController: UIViewController {
             
         }
         
-        // Change background coor and rarity depending on text color
-        switch salaryLabel.textColor {
-        case #colorLiteral(red: 0.4190762824, green: 0.005558046088, blue: 0.3883012486, alpha: 1):
-            raretyLabel.text = "zeldzaamheid = legendarisch!!!"
+        // Change background color and rarity depending on text color
+        switch personInfoGenerator.generateRarity() {
+        case 999..<1000:
+            raretyLabel.text = "legendarisch!!!"
             self.view.backgroundColor = #colorLiteral(red: 0.04830179749, green: 0.0630759631, blue: 0.433653236, alpha: 1)
-            salaryLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             fulljobLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             ageLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             raretyLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-        case #colorLiteral(red: 0.9662646678, green: 0.09260331458, blue: 0.9686274529, alpha: 1): self.view.backgroundColor = #colorLiteral(red: 0, green: 0.6198842005, blue: 0.005984226446, alpha: 1)
-            salaryLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        case 990..<999:
+            raretyLabel.text = "episch!!"
+            self.view.backgroundColor = #colorLiteral(red: 0, green: 0.6198842005, blue: 0.005984226446, alpha: 1)
             fulljobLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             ageLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             raretyLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        case #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1): raretyLabel.text = "zeldzaamheid = zeldzaam"
+        case 200..<400: raretyLabel.text = "zeldzaam!"
             self.view.backgroundColor =  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
-        default: raretyLabel.text = "zeldzaamheid = normaal"
+        default: raretyLabel.text =  "normaal"
             self.view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             fulljobLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             ageLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
@@ -79,6 +79,13 @@ class ViewController: UIViewController {
             logoLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             
         }
+        
+        if view.backgroundColor ==  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)  && salaryLabel.textColor ==  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1) {
+        salaryLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            
+        }
+        
+        
         
         
         
