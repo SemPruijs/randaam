@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             ageLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             raretyLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        case 200..<400: raretyLabel.text = "zeldzaam!"
+        case 200..<300: raretyLabel.text = "zeldzaam!"
             self.view.backgroundColor =  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
         default: raretyLabel.text =  "normaal"
             self.view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
@@ -86,9 +86,7 @@ class ViewController: UIViewController {
         }
         
         
-        
-        
-        
+     
         
         
         
