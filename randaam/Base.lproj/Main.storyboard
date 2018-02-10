@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="op scherm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dhg-Mg-kfP">
-                                <rect key="frame" x="119" y="274" width="82" height="21"/>
+                                <rect key="frame" x="119" y="273.5" width="82" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,8 +37,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tik op het scherm" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1T-wE-T10">
-                                <rect key="frame" x="93" y="326" width="134" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="om een randaam te krijgen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1T-wE-T10">
+                                <rect key="frame" x="58" y="343.5" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,8 +47,14 @@
                                 <rect key="frame" x="704" y="489" width="121" height="2"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="om een randaam te krijgen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um9-X2-xQW">
-                                <rect key="frame" x="58" y="354" width="204" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tik op het scherm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um9-X2-xQW">
+                                <rect key="frame" x="93" y="303" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="veel randaam plezier            :) " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txA-wq-SLv">
+                                <rect key="frame" x="43" y="188" width="234" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -59,16 +65,20 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HFy-qX-8g0" secondAttribute="trailing" constant="16" id="49o-D1-Fk4"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FGf-en-ZBX"/>
-                            <constraint firstItem="p1T-wE-T10" firstAttribute="top" secondItem="Dhg-Mg-kfP" secondAttribute="bottom" constant="31" id="GvT-fh-XiS"/>
+                            <constraint firstItem="p1T-wE-T10" firstAttribute="top" secondItem="Dhg-Mg-kfP" secondAttribute="bottom" constant="49" id="GvT-fh-XiS"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Lmz-qA-Nzr"/>
-                            <constraint firstItem="um9-X2-xQW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="70" id="Su5-cj-D5m"/>
+                            <constraint firstItem="um9-X2-xQW" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="19.5" id="Su5-cj-D5m"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-95.5" id="T6x-fN-W7e"/>
                             <constraint firstItem="HFy-qX-8g0" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="ZNJ-yq-bXh"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZX3-pV-MM6"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZyN-iX-lQB"/>
                             <constraint firstItem="Dhg-Mg-kfP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="abz-xF-2yX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HFy-qX-8g0" secondAttribute="bottom" constant="16" id="bx8-5A-OQp"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="g6q-Nf-cfu"/>
+                            <constraint firstAttribute="trailing" secondItem="txA-wq-SLv" secondAttribute="trailing" constant="43" id="hZ1-i9-Lkf"/>
                             <constraint firstItem="p1T-wE-T10" firstAttribute="centerX" secondItem="Dhg-Mg-kfP" secondAttribute="centerX" id="iAM-vt-p08"/>
                             <constraint firstItem="um9-X2-xQW" firstAttribute="centerX" secondItem="p1T-wE-T10" secondAttribute="centerX" id="sVz-Sb-1mL"/>
+                            <constraint firstItem="txA-wq-SLv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="168" id="zRt-wV-Iwp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -78,6 +88,8 @@
                     <connections>
                         <outlet property="ageLabel" destination="um9-X2-xQW" id="FGo-sj-ASr"/>
                         <outlet property="fulljobLabel" destination="Dhg-Mg-kfP" id="WzP-jF-d9f"/>
+                        <outlet property="logoLabel" destination="HFy-qX-8g0" id="PW5-5u-jXC"/>
+                        <outlet property="raretyLabel" destination="txA-wq-SLv" id="QY3-Gi-NsM"/>
                         <outlet property="salaryLabel" destination="p1T-wE-T10" id="qD9-uF-tAq"/>
                     </connections>
                 </viewController>
