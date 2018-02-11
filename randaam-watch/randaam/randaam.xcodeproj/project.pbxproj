@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A230CF2220303C1300A0FBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230CF2120303C1300A0FBF1 /* AppDelegate.swift */; };
+		A230CF2420303C1300A0FBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230CF2320303C1300A0FBF1 /* ViewController.swift */; };
+		A230CF2720303C1300A0FBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A230CF2520303C1300A0FBF1 /* Main.storyboard */; };
+		A230CF2920303C1300A0FBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A230CF2820303C1300A0FBF1 /* Assets.xcassets */; };
+		A230CF2C20303C1300A0FBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A230CF2A20303C1300A0FBF1 /* LaunchScreen.storyboard */; };
+		A230CF3120303C1300A0FBF1 /* randaam WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A230CF3020303C1300A0FBF1 /* randaam WatchKit App.app */; };
+		A230CF3720303C1300A0FBF1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A230CF3520303C1300A0FBF1 /* Interface.storyboard */; };
+		A230CF3920303C1300A0FBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A230CF3820303C1300A0FBF1 /* Assets.xcassets */; };
+		A230CF4020303C1300A0FBF1 /* randaam WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A230CF3F20303C1300A0FBF1 /* randaam WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A230CF4520303C1300A0FBF1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230CF4420303C1300A0FBF1 /* InterfaceController.swift */; };
+		A230CF4720303C1300A0FBF1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230CF4620303C1300A0FBF1 /* ExtensionDelegate.swift */; };
+		A230CF4920303C1300A0FBF1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A230CF4820303C1300A0FBF1 /* NotificationController.swift */; };
+		A230CF4B20303C1300A0FBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A230CF4A20303C1300A0FBF1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A230CF3220303C1300A0FBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A230CF1620303C1300A0FBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230CF2F20303C1300A0FBF1;
+			remoteInfo = "randaam WatchKit App";
+		};
+		A230CF4120303C1300A0FBF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A230CF1620303C1300A0FBF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A230CF3E20303C1300A0FBF1;
+			remoteInfo = "randaam WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A230CF5320303C1300A0FBF1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A230CF4020303C1300A0FBF1 /* randaam WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230CF5720303C1300A0FBF1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A230CF3120303C1300A0FBF1 /* randaam WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A230CF1E20303C1300A0FBF1 /* randaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230CF2120303C1300A0FBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A230CF2320303C1300A0FBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A230CF2620303C1300A0FBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A230CF2820303C1300A0FBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A230CF2B20303C1300A0FBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A230CF2D20303C1300A0FBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A230CF3020303C1300A0FBF1 /* randaam WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "randaam WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230CF3620303C1300A0FBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A230CF3820303C1300A0FBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A230CF3A20303C1300A0FBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A230CF3F20303C1300A0FBF1 /* randaam WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "randaam WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A230CF4420303C1300A0FBF1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A230CF4620303C1300A0FBF1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A230CF4820303C1300A0FBF1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A230CF4A20303C1300A0FBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A230CF4C20303C1300A0FBF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A230CF4D20303C1300A0FBF1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A230CF1B20303C1300A0FBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230CF3C20303C1300A0FBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A230CF1520303C1300A0FBF1 = {
+			isa = PBXGroup;
+			children = (
+				A230CF2020303C1300A0FBF1 /* randaam */,
+				A230CF3420303C1300A0FBF1 /* randaam WatchKit App */,
+				A230CF4320303C1300A0FBF1 /* randaam WatchKit Extension */,
+				A230CF1F20303C1300A0FBF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A230CF1F20303C1300A0FBF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A230CF1E20303C1300A0FBF1 /* randaam.app */,
+				A230CF3020303C1300A0FBF1 /* randaam WatchKit App.app */,
+				A230CF3F20303C1300A0FBF1 /* randaam WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A230CF2020303C1300A0FBF1 /* randaam */ = {
+			isa = PBXGroup;
+			children = (
+				A230CF2120303C1300A0FBF1 /* AppDelegate.swift */,
+				A230CF2320303C1300A0FBF1 /* ViewController.swift */,
+				A230CF2520303C1300A0FBF1 /* Main.storyboard */,
+				A230CF2820303C1300A0FBF1 /* Assets.xcassets */,
+				A230CF2A20303C1300A0FBF1 /* LaunchScreen.storyboard */,
+				A230CF2D20303C1300A0FBF1 /* Info.plist */,
+			);
+			path = randaam;
+			sourceTree = "<group>";
+		};
+		A230CF3420303C1300A0FBF1 /* randaam WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A230CF3520303C1300A0FBF1 /* Interface.storyboard */,
+				A230CF3820303C1300A0FBF1 /* Assets.xcassets */,
+				A230CF3A20303C1300A0FBF1 /* Info.plist */,
+			);
+			path = "randaam WatchKit App";
+			sourceTree = "<group>";
+		};
+		A230CF4320303C1300A0FBF1 /* randaam WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A230CF4420303C1300A0FBF1 /* InterfaceController.swift */,
+				A230CF4620303C1300A0FBF1 /* ExtensionDelegate.swift */,
+				A230CF4820303C1300A0FBF1 /* NotificationController.swift */,
+				A230CF4A20303C1300A0FBF1 /* Assets.xcassets */,
+				A230CF4C20303C1300A0FBF1 /* Info.plist */,
+				A230CF4D20303C1300A0FBF1 /* PushNotificationPayload.apns */,
+			);
+			path = "randaam WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A230CF1D20303C1300A0FBF1 /* randaam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230CF5820303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam" */;
+			buildPhases = (
+				A230CF1A20303C1300A0FBF1 /* Sources */,
+				A230CF1B20303C1300A0FBF1 /* Frameworks */,
+				A230CF1C20303C1300A0FBF1 /* Resources */,
+				A230CF5720303C1300A0FBF1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A230CF3320303C1300A0FBF1 /* PBXTargetDependency */,
+			);
+			name = randaam;
+			productName = randaam;
+			productReference = A230CF1E20303C1300A0FBF1 /* randaam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A230CF2F20303C1300A0FBF1 /* randaam WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230CF5420303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam WatchKit App" */;
+			buildPhases = (
+				A230CF2E20303C1300A0FBF1 /* Resources */,
+				A230CF5320303C1300A0FBF1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A230CF4220303C1300A0FBF1 /* PBXTargetDependency */,
+			);
+			name = "randaam WatchKit App";
+			productName = "randaam WatchKit App";
+			productReference = A230CF3020303C1300A0FBF1 /* randaam WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A230CF3E20303C1300A0FBF1 /* randaam WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A230CF5020303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam WatchKit Extension" */;
+			buildPhases = (
+				A230CF3B20303C1300A0FBF1 /* Sources */,
+				A230CF3C20303C1300A0FBF1 /* Frameworks */,
+				A230CF3D20303C1300A0FBF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "randaam WatchKit Extension";
+			productName = "randaam WatchKit Extension";
+			productReference = A230CF3F20303C1300A0FBF1 /* randaam WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A230CF1620303C1300A0FBF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sem Pruijs";
+				TargetAttributes = {
+					A230CF1D20303C1300A0FBF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A230CF2F20303C1300A0FBF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A230CF3E20303C1300A0FBF1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A230CF1920303C1300A0FBF1 /* Build configuration list for PBXProject "randaam" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A230CF1520303C1300A0FBF1;
+			productRefGroup = A230CF1F20303C1300A0FBF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A230CF1D20303C1300A0FBF1 /* randaam */,
+				A230CF2F20303C1300A0FBF1 /* randaam WatchKit App */,
+				A230CF3E20303C1300A0FBF1 /* randaam WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A230CF1C20303C1300A0FBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230CF2C20303C1300A0FBF1 /* LaunchScreen.storyboard in Resources */,
+				A230CF2920303C1300A0FBF1 /* Assets.xcassets in Resources */,
+				A230CF2720303C1300A0FBF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230CF2E20303C1300A0FBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230CF3920303C1300A0FBF1 /* Assets.xcassets in Resources */,
+				A230CF3720303C1300A0FBF1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230CF3D20303C1300A0FBF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230CF4B20303C1300A0FBF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A230CF1A20303C1300A0FBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230CF2420303C1300A0FBF1 /* ViewController.swift in Sources */,
+				A230CF2220303C1300A0FBF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A230CF3B20303C1300A0FBF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A230CF4920303C1300A0FBF1 /* NotificationController.swift in Sources */,
+				A230CF4720303C1300A0FBF1 /* ExtensionDelegate.swift in Sources */,
+				A230CF4520303C1300A0FBF1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A230CF3320303C1300A0FBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A230CF2F20303C1300A0FBF1 /* randaam WatchKit App */;
+			targetProxy = A230CF3220303C1300A0FBF1 /* PBXContainerItemProxy */;
+		};
+		A230CF4220303C1300A0FBF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A230CF3E20303C1300A0FBF1 /* randaam WatchKit Extension */;
+			targetProxy = A230CF4120303C1300A0FBF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A230CF2520303C1300A0FBF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A230CF2620303C1300A0FBF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A230CF2A20303C1300A0FBF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A230CF2B20303C1300A0FBF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A230CF3520303C1300A0FBF1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A230CF3620303C1300A0FBF1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A230CF4E20303C1300A0FBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A230CF4F20303C1300A0FBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A230CF5120303C1300A0FBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				INFOPLIST_FILE = "randaam WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		A230CF5220303C1300A0FBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				INFOPLIST_FILE = "randaam WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		A230CF5520303C1300A0FBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				IBSC_MODULE = randaam_WatchKit_Extension;
+				INFOPLIST_FILE = "randaam WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		A230CF5620303C1300A0FBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				IBSC_MODULE = randaam_WatchKit_Extension;
+				INFOPLIST_FILE = "randaam WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		A230CF5920303C1300A0FBF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				INFOPLIST_FILE = randaam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A230CF5A20303C1300A0FBF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				INFOPLIST_FILE = randaam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.randaam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A230CF1920303C1300A0FBF1 /* Build configuration list for PBXProject "randaam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230CF4E20303C1300A0FBF1 /* Debug */,
+				A230CF4F20303C1300A0FBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230CF5020303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230CF5120303C1300A0FBF1 /* Debug */,
+				A230CF5220303C1300A0FBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230CF5420303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230CF5520303C1300A0FBF1 /* Debug */,
+				A230CF5620303C1300A0FBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A230CF5820303C1300A0FBF1 /* Build configuration list for PBXNativeTarget "randaam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A230CF5920303C1300A0FBF1 /* Debug */,
+				A230CF5A20303C1300A0FBF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A230CF1620303C1300A0FBF1 /* Project object */;
+}
