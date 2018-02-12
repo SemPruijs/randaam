@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var raretyLabel: UILabel!
     @IBOutlet weak var logoLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
+    @IBOutlet weak var livingPleaseLabel: UILabel!
     
     // The person info generator
     let personInfoGenerator = PersonInfoGenerator()
@@ -32,6 +33,7 @@ class ViewController: UIViewController {
     @IBAction func screenTapped(_ sender: UITapGestureRecognizer) {
         
          emojiLabel.text = personInfoGenerator.generateEmojis()
+        livingPleaseLabel.text = personInfoGenerator.generateLivingPlease()
         
         let age = generateAge()
         
