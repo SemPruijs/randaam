@@ -26,6 +26,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         nextRandaam()
     }
+    
+    
+    override func becomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            nextRandaam()
+        }
+    }
+    
+    
       
     @IBAction func screenTapped(_ sender: UITapGestureRecognizer) {
         nextRandaam()

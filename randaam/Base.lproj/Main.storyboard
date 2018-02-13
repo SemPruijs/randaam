@@ -189,16 +189,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3E-hh-Rf1">
-                                <rect key="frame" x="98" y="454" width="128" height="39"/>
+                                <rect key="frame" x="96" y="454" width="128" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
-                                <state key="normal" title="ik snap het">
+                                <state key="normal" title=" snap het">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="rfS-IE-8wc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="randaam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDQ-eC-Sx4">
+                                <rect key="frame" x="128" y="97" width="68" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -210,11 +217,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEJ-50-1UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296" y="137"/>
+            <point key="canvasLocation" x="1295.625" y="136.26760563380282"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="og6-VE-wQV"/>
         <segue reference="rfS-IE-8wc"/>
     </inferredMetricsTieBreakers>
 </document>
