@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T6Z-QA-0ZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-603.75" y="130.98591549295776"/>
+            <point key="canvasLocation" x="-919" y="138"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -152,7 +152,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="f6K-N0-tRz" appends="YES" id="Q6G-mq-P5x"/>
+                            <outletCollection property="gestureRecognizers" destination="OZg-gj-nMe" appends="YES" id="JFY-7c-tRF"/>
                         </connections>
                     </view>
                     <connections>
@@ -166,13 +166,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="f6K-N0-tRz">
+                <tapGestureRecognizer id="OZg-gj-nMe">
                     <connections>
-                        <action selector="screenTapped:" destination="BYZ-38-t0r" id="JuU-Am-Cfm"/>
+                        <action selector="screenTapped:" destination="BYZ-38-t0r" id="zT4-88-COM"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="140.625" y="133.09859154929578"/>
+            <point key="canvasLocation" x="128" y="131"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pmh-C8-Oet">
@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEJ-50-1UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785.625" y="167.95774647887325"/>
+            <point key="canvasLocation" x="1341" y="131"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

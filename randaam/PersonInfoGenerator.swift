@@ -17,6 +17,8 @@ extension Array {
     }
 }
 
+
+
 struct PersonInfoGenerator {
     let names = ["harry", "bert", "henk", "sebastiaan", "papa","rutger", "mama", "lars", "Steven", "jannes",  "iwan","milan","bertwim","amgela","jorgiam","hansje","pim","sandra","hennie","achmet","dirkjan","barbaba","jeroen","riejan","willem","leo","meneer","bas","dennis","jan","kees","lies","sem","jan","cor","lucas","finn","daan","levi","milan","bram","luuk","emma","tess","sophie","julia","anna","mila","sara","luuk","jesse","mees","thomas","sam","thijs","adam","max","jullian","hugo","gijs","benjamin","tim","ruben","teun","olivier","sven","david","stijn","tom","isa","noa","jasmijn","esmee","sanne","Joël"]
     
@@ -28,11 +30,18 @@ struct PersonInfoGenerator {
     let emojis =        ["😀","😃","😄","😁","😆","😅","😂","🤣","☺️","😊","😇","🙂","🙃","😉","😌","😍","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","😏","😒","😞","😔","😟","😕","🙁","☹️","😣","😖","😫","😩","😢","😭","😤","😠","😡","🤬","🤯","😳","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","😴","🤤","😪","😵","🤐","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","💀","☠️","👽","👾","🤖","🎃","😺","😸","😹","😻","😼","😽","🙀","😿","😾","🐶","🐱","🐭","🐹","🐰","🦊","🐻","🐼","🐨","🐯","🦁","🐮","🐷","🐸","🐵","🙈","🙉","🙊","🐒","🐔","🦄","🐧","🐦","🐤","🐣","🐥","🦆","🦅","🦉","🦇","🐺","🐗","🐴","🐝","🐛","🦋","🐌","👨‍🍳","🧜‍♀️"]
     
     let livingPlease = ["huis","grot","hutje","auto","boomhut","helicopter","snoepautomaat","kast","flat","snackbar","school","doos","fabriek"]
+
     
     func generateLivingPlease() -> String {
         return "woont in een " + livingPlease.randomElement()
     }
     
+     let Age = String(arc4random_uniform(100) + 1)
+    
+    func generateAge() -> String {
+        
+        return  Age + " jaar oud" 
+    }
     
     
     func generateEmojis() -> String {
@@ -44,8 +53,8 @@ struct PersonInfoGenerator {
         return names.randomElement()  + " de " + object.randomElement() + " " + watJouCanDoe.randomElement()
     }
     
-    func generateSalary() -> Int {
-        return Int(arc4random_uniform(1000) + 1)
+    func generateSalary() -> String {
+        return String(arc4random_uniform(1000) + 1)
         
     }
     
@@ -55,13 +64,7 @@ struct PersonInfoGenerator {
         return Int(arc4random_uniform(1000) + 1)
     }
     
-        
-    
-    
 }
 
 
-func generateAge() -> Int {
-    
-    return Int(arc4random_uniform(100) + 1)
-}
+
