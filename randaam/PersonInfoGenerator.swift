@@ -36,13 +36,12 @@ struct PersonInfoGenerator {
         return "woont in een " + livingPlease.randomElement()
     }
     
-     let Age = String(arc4random_uniform(100) + 1)
+    
     
     func generateAge() -> String {
         
-        return  Age + " jaar oud" 
+        return  String(arc4random_uniform(100) + 1)
     }
-    
     
     func generateEmojis() -> String {
         return emojis.randomElement()

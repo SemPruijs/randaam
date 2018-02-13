@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         fulljobLabel.text = personInfoGenerator.generateJob()
         emojiLabel.text = personInfoGenerator.generateEmojis()
         livingPleaseLabel.text = personInfoGenerator.generateLivingPlease()
-        ageLabel.text =  personInfoGenerator.generateAge()
+        ageLabel.text =  personInfoGenerator.generateAge() + " jaar oud"
         
         let salary = personInfoGenerator.generateSalary()
         

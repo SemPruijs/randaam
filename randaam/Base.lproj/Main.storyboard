@@ -172,7 +172,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="128" y="131"/>
+            <point key="canvasLocation" x="186" y="137"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pmh-C8-Oet">
@@ -210,10 +210,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEJ-50-1UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1341" y="131"/>
+            <point key="canvasLocation" x="1296" y="137"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="og6-VE-wQV"/>
         <segue reference="rfS-IE-8wc"/>
     </inferredMetricsTieBreakers>
 </document>
