@@ -60,7 +60,7 @@ struct PersonInfoGenerator {
     func generateRarity() -> Int {
         
         
-        return Int(arc4random_uniform(1000) + 1)
+        return Int(arc4random_uniform(10000) + 1)
     }
     
 }
