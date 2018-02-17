@@ -778,13 +778,13 @@
         <image name="images.jpeg" width="267" height="189"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uAs-Pz-Vjs"/>
-        <segue reference="2OP-IL-b2d"/>
+        <segue reference="10K-Oi-W1k"/>
+        <segue reference="MvD-3b-HiB"/>
         <segue reference="6hk-02-Av8"/>
-        <segue reference="gXl-Pr-aD7"/>
-        <segue reference="fTm-rn-Gdk"/>
-        <segue reference="QbT-NV-pd8"/>
-        <segue reference="Pqu-hm-EvG"/>
+        <segue reference="s0a-HT-5wk"/>
+        <segue reference="ca1-Rg-hBN"/>
+        <segue reference="xJo-dA-HYt"/>
+        <segue reference="4Gl-F8-h3P"/>
         <segue reference="V4O-CJ-1eC"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         default: salaryLabel.textColor = #colorLiteral(red: 0.4190762824, green: 0.005558046088, blue: 0.3883012486, alpha: 1)
             
             
-        }
+     }
         
         
         
@@ -91,6 +91,7 @@ class ViewController: UIViewController {
             raretyLabel.textColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
             livingPleaseLabel.textColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
+            quastionButten.titleLabel?.textColor = #colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)
         case 9990..<10000:
             raretyLabel.text = "legendarisch!!!"
             self.view.backgroundColor = #colorLiteral(red: 0.04830179749, green: 0.0630759631, blue: 0.433653236, alpha: 1)
@@ -99,7 +100,7 @@ class ViewController: UIViewController {
             raretyLabel.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             livingPleaseLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
-            quastionButten.tintColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+            quastionButten.titleLabel?.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         case 9900..<9990:
             raretyLabel.text = "episch!!"
             self.view.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 0.9229307487, alpha: 1)
@@ -109,6 +110,7 @@ class ViewController: UIViewController {
             logoLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             livingPleaseLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
              quastionButten.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            quastionButten.titleLabel?.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         case 2000..<3000: raretyLabel.text = "zeldzaam!"
             self.view.backgroundColor =  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)
         default: raretyLabel.text =  "normaal"
@@ -118,7 +120,7 @@ class ViewController: UIViewController {
             raretyLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             logoLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
             livingPleaseLabel.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-            quastionButten.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+            quastionButten.titleLabel?.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         }
         
         if view.backgroundColor ==  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1)  && salaryLabel.textColor ==  #colorLiteral(red: 1, green: 0.5781051517, blue: 0, alpha: 1) {
