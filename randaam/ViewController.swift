@@ -19,6 +19,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var livingPleaseLabel: UILabel!
     
     @IBOutlet weak var quastionButten: UIButton!
+    @IBAction func nextImageButten(_ sender: Any) {
+        
+    }
+    
+    
+    
+    
+    
     
     
     
