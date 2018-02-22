@@ -201,7 +201,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="FNo-u0-vVa"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="ml2-dH-Zcz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIM-1q-gfg">
@@ -212,7 +212,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="V4O-CJ-1eC"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Std-xQ-fOu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je beroep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEN-Yy-2I2">
@@ -338,7 +338,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="mOA-Qc-xNx"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="ouh-xg-DTr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INy-CY-rqC">
@@ -349,7 +349,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="sF7-v9-5nw" kind="show" id="WRz-t1-Sha"/>
+                                    <segue destination="sF7-v9-5nw" kind="show" id="1ps-cw-f8E"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je leeftijd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9d1-EJ-bSs">
@@ -419,7 +419,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="8fQ-82-eUg"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="lMh-x9-tp7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxS-pr-nzC">
@@ -430,7 +430,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="6Ye-qa-lvJ" kind="show" id="v7A-PF-ZLL"/>
+                                    <segue destination="6Ye-qa-lvJ" kind="show" id="zaa-Fy-WRg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je salaris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hz7-PU-df7">
@@ -500,7 +500,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="gMc-Cr-u5W"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="FeT-Rc-aEj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trR-Ne-9hw">
@@ -511,7 +511,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="JVp-Ax-uzm" kind="show" id="wdo-09-zHR"/>
+                                    <segue destination="JVp-Ax-uzm" kind="show" id="Gcr-rA-PNs"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je woonplaats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgf-Vk-Vqd">
@@ -581,7 +581,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="Q18-Oi-Dl6"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="g2U-p3-VhI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYa-FT-DRp">
@@ -592,7 +592,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="AtJ-Xf-cv7" kind="show" id="02X-nO-u5O"/>
+                                    <segue destination="AtJ-Xf-cv7" kind="show" id="gnS-le-xDd"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je emoji👍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2x-XB-de4">
@@ -662,7 +662,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1DN-Go-42q" kind="show" id="Uxh-Tn-HF5"/>
+                                    <segue destination="1DN-Go-42q" kind="show" id="Ip8-jL-ZS2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uM0-Ca-gq5">
@@ -673,7 +673,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="5zc-V3-rdx" kind="show" id="sjL-MW-tu2"/>
+                                    <segue destination="5zc-V3-rdx" kind="show" id="wCs-Mc-leU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="dit is je zeldzaamheid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4T-0l-881">
@@ -754,7 +754,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="43"/>
                                 <state key="normal" title="&lt;"/>
                                 <connections>
-                                    <segue destination="uAf-TX-Xjy" kind="show" id="4yv-Cf-10R"/>
+                                    <segue destination="uAf-TX-Xjy" kind="show" id="DUM-yo-fGi"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="je kan nu ook schudden " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTx-z3-bEF">
@@ -817,14 +817,13 @@
         <image name="Unknown.jpeg" width="225" height="224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SAm-9V-of4"/>
-        <segue reference="4yv-Cf-10R"/>
-        <segue reference="sjL-MW-tu2"/>
-        <segue reference="02X-nO-u5O"/>
-        <segue reference="wdo-09-zHR"/>
-        <segue reference="v7A-PF-ZLL"/>
-        <segue reference="Uxh-Tn-HF5"/>
-        <segue reference="4Gl-F8-h3P"/>
-        <segue reference="Nac-vS-OqZ"/>
+        <segue reference="BI1-Z1-XOL"/>
+        <segue reference="t0v-tW-JCS"/>
+        <segue reference="3xc-am-ZOJ"/>
+        <segue reference="hg3-7J-o5y"/>
+        <segue reference="zKP-bs-Ozm"/>
+        <segue reference="ouh-xg-DTr"/>
+        <segue reference="1ps-cw-f8E"/>
+        <segue reference="Std-xQ-fOu"/>
     </inferredMetricsTieBreakers>
 </document>
