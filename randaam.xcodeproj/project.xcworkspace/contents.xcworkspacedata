@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:randaam.xcodeproj">
+      location = "self:Randaam.xcodeproj">
    </FileRef>
 </Workspace>
