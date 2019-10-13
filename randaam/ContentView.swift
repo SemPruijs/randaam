@@ -27,8 +27,8 @@ struct ContentView: View {
                 self.generateEmoji = personInfoGenerator.generateEmojis()
             }) {
                 Text("")
-                    .frame(height: 5000)
-                    .frame(width: 5000)
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .frame(minHeight: 0, maxHeight: .infinity)
                     .edgesIgnoringSafeArea(.top)
             }
         }
