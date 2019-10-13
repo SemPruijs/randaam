@@ -14,25 +14,33 @@ let personInfoGenerator = PersonInfoGenerator()
 struct ContentView: View {
     @State var generateEmoji = personInfoGenerator.generateEmojis()
     var body: some View {
-        VStack(spacing: 15) {
-            Text(generateEmoji)
-                .font(.system(size: 150))
-            Text( personInfoGenerator.generateJob())
-            Text(personInfoGenerator.generateLivingPlease())
-            Text(personInfoGenerator.generateAge())
-            Text(personInfoGenerator.generateSalary())
+        ZStack {
+            VStack(spacing: 15) {
+                   Text(generateEmoji)
+                       .font(.system(size: 150))
+                   Text( personInfoGenerator.generateJob())
+                   Text(personInfoGenerator.generateLivingPlease())
+                   Text(personInfoGenerator.generateAge())
+                   Text(personInfoGenerator.generateSalary())
+            }
             Button(action: {
                 self.generateEmoji = personInfoGenerator.generateEmojis()
             }) {
-                Text("next randaam")
+                Text("")
+                    .frame(height: 5000)
+                    .frame(width: 5000)
+                    .edgesIgnoringSafeArea(.top)
             }
         }
+       
+       
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            
+               ContentView()
+                     .previewDevice(PreviewDevice(rawValue: "iPhone 7"))
+                    
     }
 }
