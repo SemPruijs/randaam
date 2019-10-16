@@ -25,6 +25,9 @@ struct ContentView: View {
             }
             Button(action: {
                 self.generateEmoji = personInfoGenerator.generateEmojis()
+                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
+                impactFeedbackgenerator.prepare()
+                impactFeedbackgenerator.impactOccurred()
             }) {
                 Text("")
                     .frame(minWidth: 0, maxWidth: .infinity)
