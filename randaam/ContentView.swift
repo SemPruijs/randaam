@@ -33,21 +33,23 @@ struct ContentView: View {
                 Text(textRarity(rarety: personInfo.rarity))
                 Spacer()
             }
-            VStack(spacing: 10) {
+            VStack(spacing: 5) {
                 Text(personInfo.emoji)
                     .font(.system(size: 180))
                     .foregroundColor(Color.gray)
                 Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
                     .fontWeight(.bold)
-                    .padding(.bottom)
                     .font(.system(size: 20))
-                Text("\(personInfo.age) jaar oud")
-                    .font(.system(size: 20))
-                Text("€\(personInfo.salary) / week")
-                    .foregroundColor(generateSalaryColor(Salary: personInfo.salary))
-                    .font(.system(size: 20))
-                Text(personInfo.livingPlace)
-                    .font(.system(size: 20))
+    
+                
+                VStack(spacing: 5) {
+                    Text("\(personInfo.age) jaar oud")
+                    Text("€\(personInfo.salary) / week")
+                        .foregroundColor(generateSalaryColor(Salary: personInfo.salary))
+                    Text(personInfo.livingPlace)
+                        
+                } .font(.system(size: 23))
+                .padding(.top, 30)
             }
             Button(action: {
                 personInfo = personInfoGenerator.generate()
