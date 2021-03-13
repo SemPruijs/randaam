@@ -49,3 +49,20 @@ struct ContentView_Previews: PreviewProvider {
                      .previewDevice(PreviewDevice(rawValue: "iPhone 7"))
     }
 }
+
+
+func generateSalaryColor(Salary: Int) -> Color {
+    if Salary >= 990 {
+        return Color.purple
+    } else if Salary >= 900 {
+        return Color.accentColor
+    } else if Salary >= 600 {
+        return Color.green
+    } else if Salary >= 400 {
+        return Color.yellow
+    } else if Salary >= 200 {
+        return Color.orange
+    } else {
+        return Color.red
+    }
+}

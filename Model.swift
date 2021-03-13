@@ -15,22 +15,6 @@ extension Array {
     }
 }
 
-func generateSalaryColor(Salary: Int) -> Color {
-    if Salary >= 990 {
-        return Color.purple
-    } else if Salary >= 900 {
-        return Color.accentColor
-    } else if Salary >= 600 {
-        return Color.green
-    } else if Salary >= 400 {
-        return Color.yellow
-    } else if Salary >= 200 {
-        return Color.orange
-    } else {
-        return Color.red
-    }
-}
-
 struct PersonInfoGenerator {
     let names = ["Harry", "Bert", "Henk", "Sebastiaan", "Papa","Rutger", "Mama", "Lars", "Steven", "Jannes",  "Iwan","Milan","Bertwim","Amgela","Jorgiam","Hansje","Pim","Sandra","Hennie","Achmet","Dirkjan","Barbaba","Jeroen","Riejan","Willem","Leo","Meneer","Bas","Dennis","Jan","Kees","Lies","Sem","Jan","Cor","Lucas","Finn","Daan","Levi","Milan","Bram","Luuk","Emma","Tess","Sophie","Julia","Anna","Mila","Sara","Luuk","Jesse","Mees","Thomas","Sam","Thijs","Adam","Max","Jullian","Hugo","Gijs","Benjamin","Tim","Ruben","Teun","Olivier","Sven","David","Stijn","Tom","Isa","Noa","Jasmijn","Esmee","Sanne","Joël","Emmanuel","Nathan","Tobias","Alex","Daniële","Elias","Carlijn","Caroline","Lisanne","Marije","Tirza","Naomi","Joyce","Indy","Marith","Micha","Hayanne","Isa","Nadine","Aron"]
     
