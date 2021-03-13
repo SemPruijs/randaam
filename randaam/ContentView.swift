@@ -14,9 +14,13 @@ struct ContentView: View {
     @State private var personInfo = personInfoGenerator.generate()
     var body: some View {
         ZStack {
-            VStack {
+            VStack(spacing: 10) {
                 Text(personInfo.emoji)
                     .font(.system(size: 150))
+                Text(personInfo.job)
+                Text(personInfo.age)
+                Text("\(personInfo.salary) / week")
+                Text(personInfo.livingPlace)
             }
             Button(action: {
                 personInfo = personInfoGenerator.generate()

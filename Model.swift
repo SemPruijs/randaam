@@ -45,12 +45,12 @@ struct PersonInfoGenerator {
         return names.randomElement()  + " de " + objects.randomElement() + " " + jobs.randomElement()
     }
     
-    private func generateSalary() -> String {
-        return String(arc4random_uniform(1000) + 1)
+    private func generateSalary() -> Int {
+        return Int.random(in: 1...1000)
     }
     
     private func generateRarity() -> Int {
-        return Int(arc4random_uniform(10000) + 1)
+        return Int.random(in: 1...10000)
     }
     
     func generate() -> PersonInfo {
@@ -70,6 +70,6 @@ struct PersonInfo {
     let age: String
     let emoji: String
     let job: String
-    let salary: String
+    let salary: Int
     let rarity: Int
 }
