@@ -21,7 +21,7 @@ struct ContentView: View {
                    Text( personInfoGenerator.generateJob())
                    Text(personInfoGenerator.generateLivingPlace())
                    Text(personInfoGenerator.generateAge())
-                   Text(personInfoGenerator.generateSalary())
+                   Text(personInfoGenerator.generateSalary() + " /  week")
             }
             Button(action: {
                 self.generateEmoji = personInfoGenerator.generateEmojis()

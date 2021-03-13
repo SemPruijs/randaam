@@ -51,8 +51,7 @@ struct PersonInfoGenerator {
     }
     
     func generateSalary() -> String {
-        return String(arc4random_uniform(1000) + 1) + "/week"
-        
+        return String(arc4random_uniform(1000) + 1)
     }
     
     func generateRarity() -> Int {
