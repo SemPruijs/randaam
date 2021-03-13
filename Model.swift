@@ -22,7 +22,7 @@ struct PersonInfoGenerator {
     let objects = ["stoep", "dinosaurus", "klokken", "lampen","mieren","appelmoes", "poep", "bank", "goudvis","ramen","pizza","banannen","blopvis","pennen","bomen","schoenen","fietspompen","fietsen","deur","bezem","eekhoorn","muis","tafel","cavia","koek","luiaart","paarden","melkpak","chocola","bananentros","cavia","brulaap","duiven","ezel","geiten","neushoorn","zwijnen","struisvogel","varken","parkiet","stokbrood","boeken",]
     
     
-    let jobs = ["inspecteur", "zitter", "liefhebber", "visser", "schepper", "specialist", "schoonmaker","verkoper","wasser","bakker","temmer","progammeur","vlogger"]
+    let action = ["inspecteur", "zitter", "liefhebber", "visser", "schepper", "specialist", "schoonmaker","verkoper","wasser","bakker","temmer","progammeur","vlogger"]
     
     let emojis = ["😀","😃","😄","😁","😆","😅","😂","🤣","☺️","😊","😇","🙂","🙃","😉","😌","😍","🥰","😘","😗","😙","😚","😋","😛","😝","😜","🤪","🤨","🧐","🤓","😎","🤩","🥳","😏","😒","😞","😔","😟","😕","🙁","🙁","☹️","☹️","😣","😖","😫","😩","🥺","😢","😭","😤","😠","😡","🤬","🤯","😳","🥵","🥶","😱","😨","😰","😥","😓","🤗","🤔","🤭","🤫","🤥","😶","😐","😑","😬","🙄","😯","😦","😧","😮","😲","😴","🤤","😪","😵","🤐","🥴","🤢","🤮","🤧","😷","🤒","🤕","🤑","🤠","😈","👿","👹","👺","🤡","💩","👻","💀","☠️","👽","👾","🤖","🎃","😺","😸","😹","😻","😼","😽","🙀","😿","😾","👀","👶","👧","🧒","👦","👩","🧑","👨","👩‍🦱","👨‍🦱","👩‍🦰","👨‍🦰","👱‍♀️","👱‍♂️","👩‍🦳","👨‍🦳","👩‍🦲","👨‍🦲","🧔","👵","🧓","👴","👲","👳‍♀️","👳‍♂️","🧕","👮‍♀️","👮‍♂️","👷‍♀️","👷‍♂️","💂‍♀️","💂‍♂️","🕵️‍♀️","🕵️‍♂️","👩‍⚕️","👨‍⚕️","👩‍🌾","👨‍🌾","👩‍🍳","👨‍🍳","👩‍🎓","👨‍🎓","👩‍🎤","👨‍🎤","👩‍🏫","👨‍🏫","👩‍🏭","👨‍🏭","👩‍💻","👨‍💻","👩‍💼","👨‍💼"]
     
@@ -33,16 +33,24 @@ struct PersonInfoGenerator {
         return "woont in een " + livingPlaces.randomElement()
     }
     
-    private func generateAge() -> String {
-        return  String(arc4random_uniform(100) + 1) + " jaar"
+    private func generateAge() -> Int {
+        return Int.random(in: 1...100)
     }
     
     private func generateEmojis() -> String {
         return emojis.randomElement()
     }
     
-    private func generateJob() -> String {
-        return names.randomElement()  + " de " + objects.randomElement() + " " + jobs.randomElement()
+    private func generateName() -> String {
+        return names.randomElement()
+    }
+    
+    private func generateObject() -> String {
+        return objects.randomElement()
+    }
+    
+    private func generateAction() -> String {
+        return action.randomElement()
     }
     
     private func generateSalary() -> Int {
@@ -58,7 +66,13 @@ struct PersonInfoGenerator {
             livingPlace: generateLivingPlace(),
             age: generateAge(),
             emoji: generateEmojis(),
-            job: generateJob(),
+            
+            //Jobs
+            name: generateName(),
+            object: generateObject(),
+            action: generateAction(),
+            
+            
             salary: generateSalary(),
             rarity: generateRarity()
         )
@@ -67,9 +81,14 @@ struct PersonInfoGenerator {
 
 struct PersonInfo {
     let livingPlace: String
-    let age: String
+    let age: Int
     let emoji: String
-    let job: String
+    
+    // job
+    let name: String
+    let object: String
+    let action: String
+    
     let salary: Int
     let rarity: Int
 }

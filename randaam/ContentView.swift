@@ -17,8 +17,8 @@ struct ContentView: View {
             VStack(spacing: 10) {
                 Text(personInfo.emoji)
                     .font(.system(size: 150))
-                Text(personInfo.job)
-                Text(personInfo.age)
+                Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
+                Text("\(personInfo.age) jaar oud")
                 Text("\(personInfo.salary) / week")
                 Text(personInfo.livingPlace)
             }
