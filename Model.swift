@@ -66,11 +66,9 @@ struct PersonInfoGenerator {
             age: generateAge(),
             emoji: generateEmojis(),
             
-            //Jobs
             name: generateName(),
             object: generateObject(),
             action: generateAction(),
-            
             
             salary: generateSalary(),
             rarity: generateRarity()

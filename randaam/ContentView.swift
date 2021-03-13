@@ -10,11 +10,7 @@ import SwiftUI
 
 extension Color {
     static func background(for colorScheme: ColorScheme) -> Color {
-        if colorScheme == .dark {
-            return Color.black
-        } else {
-            return Color.white
-        }
+        return colorScheme == .dark ? Color.black : Color.white
     }
 }
 
@@ -36,7 +32,7 @@ struct ContentView: View {
             VStack(spacing: 5) {
                 Text(personInfo.emoji)
                     .font(.system(size: 180))
-                    .foregroundColor(Color.gray)
+                    .foregroundColor(.gray)
                 Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
                     .fontWeight(.bold)
                     .font(.system(size: 20))
@@ -67,7 +63,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .preferredColorScheme(.light)
+            .preferredColorScheme(.dark)
                      .previewDevice(PreviewDevice(rawValue: "iPhone 7"))
     }
 }
@@ -94,11 +90,7 @@ func textColor(rarety: Int) -> Color {
     switch rarety {
         case 9999..<10000:
             return Color(red: 57 / 255, green: 30 / 255, blue: 214 / 255) //blue
-        case 9990..<10000:
-            return Color.white
-        case 9900..<9990:
-            return Color.white
-        case 2000..<3000:
+        case 2000..<10000:
             return Color.white
         default:
             return Color.accentColor
