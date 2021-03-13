@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4453B49925FD520500DB43DF /* RandaamLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453B49825FD520500DB43DF /* RandaamLogo.swift */; };
 		A25A5BAB234FB19E00286770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAA234FB19E00286770 /* AppDelegate.swift */; };
 		A25A5BAD234FB19E00286770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAC234FB19E00286770 /* SceneDelegate.swift */; };
 		A25A5BAF234FB19E00286770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAE234FB19E00286770 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4453B49825FD520500DB43DF /* RandaamLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandaamLogo.swift; path = randaam/RandaamLogo.swift; sourceTree = SOURCE_ROOT; };
 		A235693323571051000EE14C /* Randaam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Randaam.entitlements; sourceTree = "<group>"; };
 		A25A5BA7234FB19E00286770 /* Randaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25A5BAA234FB19E00286770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				A25A5BAA234FB19E00286770 /* AppDelegate.swift */,
 				A25A5BAC234FB19E00286770 /* SceneDelegate.swift */,
 				A25A5BAE234FB19E00286770 /* ContentView.swift */,
+				4453B49825FD520500DB43DF /* RandaamLogo.swift */,
 				A25A5BB0234FB19F00286770 /* Assets.xcassets */,
 				A25A5BB5234FB19F00286770 /* LaunchScreen.storyboard */,
 				A25A5BB8234FB19F00286770 /* Info.plist */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25A5BAB234FB19E00286770 /* AppDelegate.swift in Sources */,
+				4453B49925FD520500DB43DF /* RandaamLogo.swift in Sources */,
 				A25A5BAD234FB19E00286770 /* SceneDelegate.swift in Sources */,
 				A25A5BAF234FB19E00286770 /* ContentView.swift in Sources */,
 				A25A5BBF234FB2E900286770 /* Model.swift in Sources */,
