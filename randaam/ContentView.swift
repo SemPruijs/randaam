@@ -8,26 +8,14 @@
 
 import SwiftUI
 
-let personInfoGenerator = PersonInfoGenerator()
-
-
 struct ContentView: View {
-    @State var generateEmoji = personInfoGenerator.generateEmojis()
     var body: some View {
         ZStack {
-            VStack(spacing: 15) {
-                   Text(generateEmoji)
-                       .font(.system(size: 150))
-                   Text( personInfoGenerator.generateJob())
-                   Text(personInfoGenerator.generateLivingPlace())
-                   Text(personInfoGenerator.generateAge())
-                   Text(personInfoGenerator.generateSalary() + " /  week")
+            VStack {
+                
             }
             Button(action: {
-                self.generateEmoji = personInfoGenerator.generateEmojis()
-                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
-                impactFeedbackgenerator.prepare()
-                impactFeedbackgenerator.impactOccurred()
+//Change information
             }) {
                 Text("")
                     .frame(minWidth: 0, maxWidth: .infinity)

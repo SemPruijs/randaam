@@ -34,17 +34,13 @@ struct PersonInfoGenerator {
         return "woont in een " + livingPlaces.randomElement()
     }
     
-    
-    
     func generateAge() -> String {
-        
         return  String(arc4random_uniform(100) + 1) + " jaar"
     }
     
     func generateEmojis() -> String {
         return emojis.randomElement()
     }
-    
     
     func generateJob() -> String {
         return names.randomElement()  + " de " + objects.randomElement() + " " + jobs.randomElement()
@@ -57,7 +53,4 @@ struct PersonInfoGenerator {
     func generateRarity() -> Int {
         return Int(arc4random_uniform(10000) + 1)
     }
-    
 }
-
-
