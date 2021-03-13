@@ -8,12 +8,6 @@
 
 import SwiftUI
 
-//extension Color {
-//    static let costumGreen = Color(red: 41 / 255, green: 253 / 255, blue: 49 / 255)
-//    static let costumDarkBlue = Color(red: 14 / 255, green: 22 / 255, blue: 109 / 255)
-//    static let costumPink = Color(red: 252 / 255, green: 37 / 255, blue: 233 / 255)
-//    static let costumOrange = Color(red: 253 / 255, green: 147 / 255, blue: 38 / 255)
-//}
 extension Color {
     static func background(for colorScheme: ColorScheme) -> Color {
         if colorScheme == .dark {
@@ -46,9 +40,9 @@ struct ContentView: View {
                 Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
                 Text("\(personInfo.age) jaar oud")
                 HStack {
-                    Text(String(personInfo.salary))
+                    Text("€\(personInfo.salary) / week")
                         .foregroundColor(generateSalaryColor(Salary: personInfo.salary))
-                    Text("/  week")
+                    
                 }
                 
                 Text(personInfo.livingPlace)
