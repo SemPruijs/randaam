@@ -8,20 +8,33 @@
 
 import SwiftUI
 
+//extension Color {
+//    static let costumGreen = Color(red: 41 / 255, green: 253 / 255, blue: 49 / 255)
+//    static let costumDarkBlue = Color(red: 14 / 255, green: 22 / 255, blue: 109 / 255)
+//    static let costumPink = Color(red: 252 / 255, green: 37 / 255, blue: 233 / 255)
+//    static let costumOrange = Color(red: 253 / 255, green: 147 / 255, blue: 38 / 255)
+//}
 extension Color {
-    static let costumGreen = Color(red: 41 / 255, green: 253 / 255, blue: 49 / 255)
-    static let costumDarkBlue = Color(red: 14 / 255, green: 22 / 255, blue: 109 / 255)
-    static let costumPink = Color(red: 252 / 255, green: 37 / 255, blue: 233 / 255)
-    static let costumOrange = Color(red: 253 / 255, green: 147 / 255, blue: 38 / 255)
+    static func background(for colorScheme: ColorScheme) -> Color {
+        if colorScheme == .dark {
+            return Color.black
+        } else {
+            return Color.white
+        }
+    }
 }
-
 
 let personInfoGenerator = PersonInfoGenerator()
 
 struct ContentView: View {
+    @Environment (\.colorScheme) var colorScheme:ColorScheme
     @State private var personInfo = personInfoGenerator.generate()
     var body: some View {
         ZStack {
+            if #available(iOS 14.0, *) {
+                backgroundColor(rarety: personInfo.rarity, colorScheme: colorScheme)
+                    .ignoresSafeArea()
+            }
             VStack {
                 Text(textRarity(rarety: personInfo.rarity))
                 Spacer()
@@ -93,7 +106,7 @@ func textColor(rarety: Int) -> Color {
     }
 }
 
-func backgroundColor(rarety: Int) -> Color {
+func backgroundColor(rarety: Int, colorScheme: ColorScheme) -> Color {
     switch rarety {
         case 9999..<10000:
             return Color(red: 57 / 255, green: 30 / 255, blue: 214 / 255)
@@ -104,7 +117,7 @@ func backgroundColor(rarety: Int) -> Color {
         case 2000..<3000:
             return Color(red: 253 / 255, green: 147 / 255, blue: 38 / 255)
         default:
-            return Color.secondary
+            return Color.background(for: colorScheme)
     }
 }
 
