@@ -9,7 +9,6 @@
 import Foundation
 
 extension Array {
-    
     func randomElement() -> Element {
         return self[Int(arc4random() % UInt32(self.count))]
     }
@@ -30,27 +29,47 @@ struct PersonInfoGenerator {
     let livingPlaces = ["huis","grot","hutje","auto","boomhut","helicopter","snoepautomaat","kast","flat","snackbar","school","doos","fabriek", "boot"]
 
     
-    func generateLivingPlace() -> String {
+    private func generateLivingPlace() -> String {
         return "woont in een " + livingPlaces.randomElement()
     }
     
-    func generateAge() -> String {
+    private func generateAge() -> String {
         return  String(arc4random_uniform(100) + 1) + " jaar"
     }
     
-    func generateEmojis() -> String {
+    private func generateEmojis() -> String {
         return emojis.randomElement()
     }
     
-    func generateJob() -> String {
+    private func generateJob() -> String {
         return names.randomElement()  + " de " + objects.randomElement() + " " + jobs.randomElement()
     }
     
-    func generateSalary() -> String {
+    private func generateSalary() -> String {
         return String(arc4random_uniform(1000) + 1)
     }
     
-    func generateRarity() -> Int {
+    private func generateRarity() -> Int {
         return Int(arc4random_uniform(10000) + 1)
     }
+    
+    func generate() -> PersonInfo {
+        return PersonInfo(
+            livingPlace: generateLivingPlace(),
+            age: generateAge(),
+            emoji: generateEmojis(),
+            job: generateJob(),
+            salary: generateSalary(),
+            rarity: generateRarity()
+        )
+    }
+}
+
+struct PersonInfo {
+    let livingPlace: String
+    let age: String
+    let emoji: String
+    let job: String
+    let salary: String
+    let rarity: Int
 }
