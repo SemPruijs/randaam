@@ -30,7 +30,7 @@ struct PersonInfoGenerator {
     let livingPlaces = ["huis","grot","hutje","auto","boomhut","helicopter","snoepautomaat","kast","flat","snackbar","school","doos","fabriek", "boot"]
 
     
-    func generateLivingPlease() -> String {
+    func generateLivingPlace() -> String {
         return "woont in een " + livingPlaces.randomElement()
     }
     

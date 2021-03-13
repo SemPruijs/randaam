@@ -19,7 +19,7 @@ struct ContentView: View {
                    Text(generateEmoji)
                        .font(.system(size: 150))
                    Text( personInfoGenerator.generateJob())
-                   Text(personInfoGenerator.generateLivingPlease())
+                   Text(personInfoGenerator.generateLivingPlace())
                    Text(personInfoGenerator.generateAge())
                    Text(personInfoGenerator.generateSalary())
             }
