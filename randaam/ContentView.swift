@@ -17,9 +17,15 @@ struct ContentView: View {
             VStack(spacing: 10) {
                 Text(personInfo.emoji)
                     .font(.system(size: 150))
+                    .foregroundColor(Color.gray)
                 Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
                 Text("\(personInfo.age) jaar oud")
-                Text("\(personInfo.salary) / week")
+                HStack {
+                    Text(String(personInfo.salary))
+                        .foregroundColor(generateSalaryColor(Salary: personInfo.salary))
+                    Text("/  week")
+                }
+                
                 Text(personInfo.livingPlace)
             }
             Button(action: {
