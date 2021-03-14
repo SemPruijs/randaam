@@ -47,19 +47,13 @@ struct ContentView: View {
                 } .font(.system(size: 23))
                 .padding(.top, 30)
             }
-            Button(action: {
-                personInfo = personInfoGenerator.generate()
-                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
-                    impactFeedbackgenerator.prepare()
-                    impactFeedbackgenerator.impactOccurred()
-            }) {
-                Text("")
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .frame(minHeight: 0, maxHeight: .infinity)
-                    .edgesIgnoringSafeArea(.top)
-            }
             RandaamLogo()
-        }
+        }.gesture(LongPressGesture().onChanged { _ in
+            personInfo = personInfoGenerator.generate()
+            let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
+                impactFeedbackgenerator.prepare()
+                impactFeedbackgenerator.impactOccurred()
+        })
     }
 }
 
