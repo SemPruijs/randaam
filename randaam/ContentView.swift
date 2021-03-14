@@ -49,6 +49,9 @@ struct ContentView: View {
             }
             Button(action: {
                 personInfo = personInfoGenerator.generate()
+                let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
+                    impactFeedbackgenerator.prepare()
+                    impactFeedbackgenerator.impactOccurred()
             }) {
                 Text("")
                     .frame(minWidth: 0, maxWidth: .infinity)
