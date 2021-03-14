@@ -36,8 +36,6 @@ struct ContentView: View {
                 Text("\(personInfo.name) de \(personInfo.object) \(personInfo.action)")
                     .fontWeight(.bold)
                     .font(.system(size: 20))
-    
-                
                 VStack(spacing: 5) {
                     Text("\(personInfo.age) jaar oud")
                     Text("€\(personInfo.salary) / week")
@@ -61,7 +59,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .preferredColorScheme(.dark)
-                     .previewDevice(PreviewDevice(rawValue: "iPhone 7"))
+                     .previewDevice(PreviewDevice(rawValue: "iPhone 12"))
     }
 }
 
