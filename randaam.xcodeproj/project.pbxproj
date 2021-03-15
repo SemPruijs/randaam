@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4453B49925FD520500DB43DF /* RandaamLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453B49825FD520500DB43DF /* RandaamLogo.swift */; };
+		44987F7F25FFB9340068C2E2 /* RandaamWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 44987F7E25FFB9340068C2E2 /* RandaamWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44987F8425FFB9360068C2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44987F8325FFB9360068C2E2 /* Assets.xcassets */; };
+		44987F8B25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 44987F8A25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		44987F9025FFB9370068C2E2 /* randaamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44987F8F25FFB9370068C2E2 /* randaamApp.swift */; };
+		44987F9225FFB9370068C2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44987F9125FFB9370068C2E2 /* ContentView.swift */; };
+		44987F9425FFB9370068C2E2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44987F9325FFB9370068C2E2 /* NotificationController.swift */; };
+		44987F9625FFB9370068C2E2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44987F9525FFB9370068C2E2 /* NotificationView.swift */; };
+		44987F9825FFB9370068C2E2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44987F9725FFB9370068C2E2 /* ComplicationController.swift */; };
+		44987F9A25FFB9370068C2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44987F9925FFB9370068C2E2 /* Assets.xcassets */; };
+		44987F9D25FFB9370068C2E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44987F9C25FFB9370068C2E2 /* Preview Assets.xcassets */; };
+		44987FAF25FFBA2B0068C2E2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BBE234FB2E900286770 /* Model.swift */; };
 		A25A5BAB234FB19E00286770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAA234FB19E00286770 /* AppDelegate.swift */; };
 		A25A5BAD234FB19E00286770 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAC234FB19E00286770 /* SceneDelegate.swift */; };
 		A25A5BAF234FB19E00286770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BAE234FB19E00286770 /* ContentView.swift */; };
@@ -17,8 +28,64 @@
 		A25A5BBF234FB2E900286770 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25A5BBE234FB2E900286770 /* Model.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		44987F8025FFB9340068C2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25A5B9F234FB19E00286770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44987F7D25FFB9340068C2E2;
+			remoteInfo = "RandaamWatch WatchKit App";
+		};
+		44987F8C25FFB9370068C2E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A25A5B9F234FB19E00286770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44987F8925FFB9370068C2E2;
+			remoteInfo = "RandaamWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44987FA325FFB9370068C2E2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				44987F8B25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44987FA725FFB9370068C2E2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				44987F7F25FFB9340068C2E2 /* RandaamWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		4453B49825FD520500DB43DF /* RandaamLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandaamLogo.swift; path = randaam/RandaamLogo.swift; sourceTree = SOURCE_ROOT; };
+		44987F7B25FFB9330068C2E2 /* RandaamWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandaamWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44987F7E25FFB9340068C2E2 /* RandaamWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RandaamWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44987F8325FFB9360068C2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44987F8525FFB9360068C2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44987F8A25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RandaamWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44987F8F25FFB9370068C2E2 /* randaamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randaamApp.swift; sourceTree = "<group>"; };
+		44987F9125FFB9370068C2E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44987F9325FFB9370068C2E2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		44987F9525FFB9370068C2E2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		44987F9725FFB9370068C2E2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		44987F9925FFB9370068C2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44987F9C25FFB9370068C2E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44987F9E25FFB9370068C2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44987F9F25FFB9370068C2E2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A235693323571051000EE14C /* Randaam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Randaam.entitlements; sourceTree = "<group>"; };
 		A25A5BA7234FB19E00286770 /* Randaam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randaam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25A5BAA234FB19E00286770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +99,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44987F8725FFB9370068C2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A25A5BA4234FB19E00286770 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +116,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44987F8225FFB9340068C2E2 /* RandaamWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				44987F8325FFB9360068C2E2 /* Assets.xcassets */,
+				44987F8525FFB9360068C2E2 /* Info.plist */,
+			);
+			path = "RandaamWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		44987F8E25FFB9370068C2E2 /* RandaamWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44987F8F25FFB9370068C2E2 /* randaamApp.swift */,
+				44987F9125FFB9370068C2E2 /* ContentView.swift */,
+				44987F9325FFB9370068C2E2 /* NotificationController.swift */,
+				44987F9525FFB9370068C2E2 /* NotificationView.swift */,
+				44987F9725FFB9370068C2E2 /* ComplicationController.swift */,
+				44987F9925FFB9370068C2E2 /* Assets.xcassets */,
+				44987F9E25FFB9370068C2E2 /* Info.plist */,
+				44987F9F25FFB9370068C2E2 /* PushNotificationPayload.apns */,
+				44987F9B25FFB9370068C2E2 /* Preview Content */,
+			);
+			path = "RandaamWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		44987F9B25FFB9370068C2E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44987F9C25FFB9370068C2E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A25A5B9E234FB19E00286770 = {
 			isa = PBXGroup;
 			children = (
 				A25A5BA9234FB19E00286770 /* Randaam */,
+				44987F8225FFB9340068C2E2 /* RandaamWatch WatchKit App */,
+				44987F8E25FFB9370068C2E2 /* RandaamWatch WatchKit Extension */,
 				A25A5BA8234FB19E00286770 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				A25A5BA7234FB19E00286770 /* Randaam.app */,
+				44987F7B25FFB9330068C2E2 /* RandaamWatch.app */,
+				44987F7E25FFB9340068C2E2 /* RandaamWatch WatchKit App.app */,
+				44987F8A25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +198,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		44987F7A25FFB9330068C2E2 /* RandaamWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44987FA825FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch" */;
+			buildPhases = (
+				44987F7925FFB9330068C2E2 /* Resources */,
+				44987FA725FFB9370068C2E2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44987F8125FFB9340068C2E2 /* PBXTargetDependency */,
+			);
+			name = RandaamWatch;
+			productName = RandaamWatch;
+			productReference = 44987F7B25FFB9330068C2E2 /* RandaamWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		44987F7D25FFB9340068C2E2 /* RandaamWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44987FA425FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch WatchKit App" */;
+			buildPhases = (
+				44987F7C25FFB9340068C2E2 /* Resources */,
+				44987FA325FFB9370068C2E2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44987F8D25FFB9370068C2E2 /* PBXTargetDependency */,
+			);
+			name = "RandaamWatch WatchKit App";
+			productName = "RandaamWatch WatchKit App";
+			productReference = 44987F7E25FFB9340068C2E2 /* RandaamWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		44987F8925FFB9370068C2E2 /* RandaamWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44987FA025FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch WatchKit Extension" */;
+			buildPhases = (
+				44987F8625FFB9370068C2E2 /* Sources */,
+				44987F8725FFB9370068C2E2 /* Frameworks */,
+				44987F8825FFB9370068C2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RandaamWatch WatchKit Extension";
+			productName = "RandaamWatch WatchKit Extension";
+			productReference = 44987F8A25FFB9370068C2E2 /* RandaamWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A25A5BA6234FB19E00286770 /* Randaam */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A25A5BBB234FB19F00286770 /* Build configuration list for PBXNativeTarget "Randaam" */;
@@ -109,10 +272,19 @@
 		A25A5B9F234FB19E00286770 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Sem Pruijs";
 				TargetAttributes = {
+					44987F7A25FFB9330068C2E2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44987F7D25FFB9340068C2E2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					44987F8925FFB9370068C2E2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					A25A5BA6234FB19E00286770 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -132,11 +304,38 @@
 			projectRoot = "";
 			targets = (
 				A25A5BA6234FB19E00286770 /* Randaam */,
+				44987F7A25FFB9330068C2E2 /* RandaamWatch */,
+				44987F7D25FFB9340068C2E2 /* RandaamWatch WatchKit App */,
+				44987F8925FFB9370068C2E2 /* RandaamWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		44987F7925FFB9330068C2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44987F7C25FFB9340068C2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44987F8425FFB9360068C2E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44987F8825FFB9370068C2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44987F9D25FFB9370068C2E2 /* Preview Assets.xcassets in Resources */,
+				44987F9A25FFB9370068C2E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A25A5BA5234FB19E00286770 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +349,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44987F8625FFB9370068C2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44987F9425FFB9370068C2E2 /* NotificationController.swift in Sources */,
+				44987F9225FFB9370068C2E2 /* ContentView.swift in Sources */,
+				44987F9825FFB9370068C2E2 /* ComplicationController.swift in Sources */,
+				44987FAF25FFBA2B0068C2E2 /* Model.swift in Sources */,
+				44987F9025FFB9370068C2E2 /* randaamApp.swift in Sources */,
+				44987F9625FFB9370068C2E2 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A25A5BA3234FB19E00286770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +376,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		44987F8125FFB9340068C2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44987F7D25FFB9340068C2E2 /* RandaamWatch WatchKit App */;
+			targetProxy = 44987F8025FFB9340068C2E2 /* PBXContainerItemProxy */;
+		};
+		44987F8D25FFB9370068C2E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44987F8925FFB9370068C2E2 /* RandaamWatch WatchKit Extension */;
+			targetProxy = 44987F8C25FFB9370068C2E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		A25A5BB5234FB19F00286770 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -176,6 +401,120 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		44987FA125FFB9370068C2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandaamWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RandaamWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		44987FA225FFB9370068C2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RandaamWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "RandaamWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		44987FA525FFB9370068C2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				IBSC_MODULE = RandaamWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "RandaamWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		44987FA625FFB9370068C2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				IBSC_MODULE = RandaamWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "RandaamWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		44987FA925FFB9370068C2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44987FAA25FFB9370068C2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7987W92JF6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.RandaamWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A25A5BB9234FB19F00286770 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,7 +638,7 @@
 				CODE_SIGN_ENTITLEMENTS = Randaam/Randaam.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Randaam/Preview Content\"";
 				DEVELOPMENT_TEAM = BSN9DSQ2C4;
 				ENABLE_PREVIEWS = YES;
@@ -324,7 +663,7 @@
 				CODE_SIGN_ENTITLEMENTS = Randaam/Randaam.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Randaam/Preview Content\"";
 				DEVELOPMENT_TEAM = BSN9DSQ2C4;
 				ENABLE_PREVIEWS = YES;
@@ -345,6 +684,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44987FA025FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44987FA125FFB9370068C2E2 /* Debug */,
+				44987FA225FFB9370068C2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44987FA425FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44987FA525FFB9370068C2E2 /* Debug */,
+				44987FA625FFB9370068C2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44987FA825FFB9370068C2E2 /* Build configuration list for PBXNativeTarget "RandaamWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44987FA925FFB9370068C2E2 /* Debug */,
+				44987FAA25FFB9370068C2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A25A5BA2234FB19E00286770 /* Build configuration list for PBXProject "randaam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
