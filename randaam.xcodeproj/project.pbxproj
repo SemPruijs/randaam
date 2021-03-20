@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440D562C26050DB300D3B9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44987F9925FFB9370068C2E2 /* Assets.xcassets */; };
 		4453B49925FD520500DB43DF /* RandaamLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453B49825FD520500DB43DF /* RandaamLogo.swift */; };
 		44987F7F25FFB9340068C2E2 /* RandaamWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 44987F7E25FFB9340068C2E2 /* RandaamWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		44987F8425FFB9360068C2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44987F8325FFB9360068C2E2 /* Assets.xcassets */; };
@@ -323,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440D562C26050DB300D3B9C7 /* Assets.xcassets in Resources */,
 				44987F8425FFB9360068C2E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
